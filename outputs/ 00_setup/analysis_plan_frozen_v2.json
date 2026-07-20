@@ -1,0 +1,12 @@
+{
+  "title": "Endocrine-metabolic network architecture reveals key bridge biomarkers in polycystic ovary syndrome",
+  "version": "v2_methodologically_revised",
+  "primary_improvements": [
+    "primary network uses only directly measured biomarkers",
+    "derived ratios excluded from primary network and moved to sensitivity",
+    "Graphical LASSO alpha selected by cross-validation",
+    "bootstrap stability increased to 500 resamples",
+    "secondary full clinical network retained as sensitivity"
+  ],
+  "random_seed": 42
+}
