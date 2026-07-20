@@ -1,0 +1,37 @@
+feature,columns_used,n_nonmissing,missing_pct
+AGE,Wiek,1241,3.4992223950233283
+BMI,BMI kg/m2,0,100.0
+LH,LH (LH) | LH IU/l,1132,11.975116640746501
+FSH,FSH (FSH) | FSH IU/l,1132,11.975116640746501
+TESTO_TOTAL,,0,100.0
+TESTO_FREE,,0,100.0
+SHBG,SHBG (L_SHGB) | SHBG (SHGB) | SHBG nmol/l,1132,11.975116640746501
+DHEAS,DHEAS (DHEA) | DHEAS ug/dl,1135,11.741835147744945
+AMH,AMH ng/ml | AMH (hormon anty-Mullerowski) (AMH_CP) | AMH-anty Mullerian Hormon (AMH),1107,13.919129082426126
+ANDRO,Androstendion (ANDRO) | Androstendion (I31) | Androstendion (I31) (ANDRO),1110,13.685847589424572
+CORT_8,Kortyzol godz. 08:00 (KOR) | Kortyzol na czczo (KORCZ),1132,11.975116640746501
+CORT_23,Kortyzol godz. 23:00 (KOR23),1131,12.052877138413685
+GLU0,Krzywa cukrowa - 2 punktowa (L_GLU_0) | Glukoza (L_GLU),1116,13.21928460342146
+GLU120,Krzywa cukrowa - 2 punktowa (GLU120),1114,13.374805598755831
+INS0,"Insulina po obciążeniu 75 g glukozy 0,1,2,3 (L97 0m) | Insulina po obciążeniu 75 g glukozy 0,1,2,3 (L97_0) | Insulina po 75g glukozy (3pkt.) (INSUL_0) | Insulina (INSUL)",1095,14.852255054432348
+INS120,"Insulina po obciążeniu 75 g glukozy 0,1,2,3 (L97 120m) | Insulina po obciążeniu 75 g glukozy 0,1,2,3 (L97_2) | Insulina po 75g glukozy (3pkt.) (INSUL_2)",350,72.78382581648522
+TCHOL,Cholesterol całkowity (TCHOL),1134,11.81959564541213
+LDL,LDL cholesterol (LDL),1134,11.81959564541213
+HDL,HDL cholesterol (HDL),1134,11.81959564541213
+TG,Triglicerydy (TG),1134,11.81959564541213
+WBC,"Morfologia CBC (WBC) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (WBC)",940,26.905132192846033
+NEUT_ABS,"Neu 10^3/uL | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (NEUT#)",901,29.937791601866255
+LYMPH_ABS,"Limf 10^3/uL | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (LIM#)",901,29.937791601866255
+MONO_ABS,"Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (MON#)",901,29.937791601866255
+PLT,"PLT 10^3/uL | Morfologia CBC (PLT) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (PLT)",940,26.905132192846033
+RDW,"RDW % | Morfologia CBC (RDW) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (RDW)",940,26.905132192846033
+MPV,"MPV fL | Morfologia CBC (MPV) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (MPV)",940,26.905132192846033
+PDW,"Morfologia CBC (PDW) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (PDW)",941,26.827371695178847
+PCT,"Morfologia CBC (PCT) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (PCT)",940,26.905132192846033
+PLCR,"Morfologia CBC (PLCR) | Morfologia krwi, z pełnym różnicowaniem granulocytów (leukocytów) z rozmazem - 5 Diff (PLCR)",940,26.905132192846033
+CRP,Białko C-reaktywne (CRP),18,98.60031104199068
+TSH,TSH (TSH) | TSH uIU/ml,1133,11.897356143079316
+FT4,FT4 (FT4),1132,11.975116640746501
+FT3,FT3 (FT3),5,99.61119751166407
+ATA_TPO,Anty-TPO (ATA_TPO),1041,19.05132192846034
+ATA_TG,Anty-TG (O18) | Anty-TG (p/c przeciw tyreoglobulinie) (ATG) | P/c antytyreoglobulinowe (anty-Tg) (ANTYTG2),956,25.660964230171075
