@@ -1,0 +1,10 @@
+{
+  "n_participants": 1286,
+  "n_primary_direct_biomarkers": 29,
+  "selection_method": "EBIC gamma=0.50 with pre-specified sparse interpretability constraint density <= 0.20",
+  "selected_alpha": 0.125,
+  "n_edges": 73,
+  "network_density": 0.17980295566502463,
+  "n_cross_domain_edges": 30,
+  "primary_network_note": "This is the primary network. Unconstrained EBIC and alternative gamma values are reported only as sensitivity because they produced a dense network."
+}
