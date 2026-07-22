@@ -1,0 +1,10 @@
+source_domain,target_domain,n_edges
+endocrine,endocrine,9
+endocrine,inflammatory,3
+endocrine,metabolic,6
+endocrine,thyroid,3
+inflammatory,inflammatory,18
+metabolic,inflammatory,15
+metabolic,metabolic,15
+metabolic,thyroid,3
+thyroid,thyroid,1
