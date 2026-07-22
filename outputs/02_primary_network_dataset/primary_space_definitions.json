@@ -1,0 +1,39 @@
+{
+  "endocrine": [
+    "LH",
+    "FSH",
+    "SHBG",
+    "DHEAS",
+    "AMH",
+    "ANDRO",
+    "CORT_8",
+    "CORT_23"
+  ],
+  "inflammatory": [
+    "WBC",
+    "NEUT_ABS",
+    "LYMPH_ABS",
+    "MONO_ABS",
+    "PLT",
+    "RDW",
+    "MPV",
+    "PDW",
+    "PCT",
+    "PLCR"
+  ],
+  "metabolic": [
+    "GLU0",
+    "GLU120",
+    "INS0",
+    "TCHOL",
+    "LDL",
+    "HDL",
+    "TG"
+  ],
+  "thyroid": [
+    "TSH",
+    "FT4",
+    "ATA_TPO",
+    "ATA_TG"
+  ]
+}
