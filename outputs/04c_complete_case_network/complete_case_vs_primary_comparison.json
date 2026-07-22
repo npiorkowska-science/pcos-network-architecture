@@ -1,0 +1,52 @@
+{
+  "primary_n": 1286,
+  "complete_case_n": 885,
+  "primary_alpha": 0.125,
+  "complete_case_alpha": 0.15,
+  "primary_n_edges": 73,
+  "complete_case_n_edges": 66,
+  "primary_density": 0.17980295566502463,
+  "complete_case_density": 0.1625615763546798,
+  "n_shared_edges": 66,
+  "jaccard_edge_similarity": 0.9041095890410958,
+  "pct_primary_edges_preserved_in_complete_case": 90.41095890410958,
+  "bridge_strength_spearman_correlation": 0.9432803158556451,
+  "node_strength_spearman_correlation": 0.9832512315270934,
+  "top8_bridge_biomarkers_primary": [
+    "FT4",
+    "GLU120",
+    "HDL",
+    "INS0",
+    "NEUT_ABS",
+    "SHBG",
+    "TG",
+    "WBC"
+  ],
+  "top8_bridge_biomarkers_complete_case": [
+    "ANDRO",
+    "ATA_TG",
+    "HDL",
+    "INS0",
+    "NEUT_ABS",
+    "SHBG",
+    "TG",
+    "WBC"
+  ],
+  "top8_overlap": [
+    "HDL",
+    "INS0",
+    "NEUT_ABS",
+    "SHBG",
+    "TG",
+    "WBC"
+  ],
+  "top8_overlap_count": 6,
+  "top8_only_in_primary": [
+    "FT4",
+    "GLU120"
+  ],
+  "top8_only_in_complete_case": [
+    "ANDRO",
+    "ATA_TG"
+  ]
+}

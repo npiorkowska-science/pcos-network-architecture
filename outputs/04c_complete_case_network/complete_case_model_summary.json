@@ -1,0 +1,12 @@
+{
+  "n_participants_complete_case": 885,
+  "n_participants_primary_imputed": 1286,
+  "pct_of_primary_cohort_retained": 68.8,
+  "n_primary_direct_biomarkers": 29,
+  "selection_method": "EBIC gamma=0.50 with pre-specified sparse interpretability constraint density <= 0.20 (identical rule to primary network)",
+  "selected_alpha": 0.15,
+  "n_edges": 66,
+  "network_density": 0.1625615763546798,
+  "n_cross_domain_edges": 25,
+  "note": "Complete-case sensitivity network: rows with any missing value among the 29 primary biomarkers were excluded (no imputation). Same preprocessing, z-scoring, Graphical LASSO EBIC(gamma=0.5)+density<=0.20 selection rule, and centrality/bridge-centrality formulas as the primary network."
+}
