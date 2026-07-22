@@ -1,0 +1,90 @@
+{
+  "n_bootstrap_requested": 500,
+  "n_bootstrap_successful": 500,
+  "n_failures": 0,
+  "alpha_fixed_from_primary_selection": 0.125,
+  "stable_edges_freq_ge_0_5": 72,
+  "stable_edges_freq_ge_0_75": 58,
+  "top_bridge_bootstrap_median": [
+    {
+      "feature": "SHBG",
+      "strength_median": 0.9083448778925821,
+      "strength_p025": 0.7969219070309993,
+      "strength_p975": 1.0267137108937143,
+      "bridge_strength_median": 0.720698671777778,
+      "bridge_p025": 0.6246068410146308,
+      "bridge_p975": 0.8242304963012047,
+      "domain": "endocrine"
+    },
+    {
+      "feature": "INS0",
+      "strength_median": 0.9061850349281615,
+      "strength_p025": 0.7775769394182593,
+      "strength_p975": 1.031886613511201,
+      "bridge_strength_median": 0.4629744110187223,
+      "bridge_p025": 0.3692862035391334,
+      "bridge_p975": 0.5494763514697296,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "TG",
+      "strength_median": 0.9438200200774339,
+      "strength_p025": 0.8374267640854106,
+      "strength_p975": 1.0619753931232683,
+      "bridge_strength_median": 0.2446488640459982,
+      "bridge_p025": 0.16356437013856326,
+      "bridge_p975": 0.3356504380346867,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "HDL",
+      "strength_median": 0.9088642669738567,
+      "strength_p025": 0.7751240599897552,
+      "strength_p975": 1.0581328616374175,
+      "bridge_strength_median": 0.21743032990778544,
+      "bridge_p025": 0.15956185834689066,
+      "bridge_p975": 0.2906445116775776,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "FT4",
+      "strength_median": 0.19285436425364227,
+      "strength_p025": 0.10095033354288557,
+      "strength_p975": 0.2939570563004013,
+      "bridge_strength_median": 0.19285436425364227,
+      "bridge_p025": 0.10095033354288557,
+      "bridge_p975": 0.2906823252201063,
+      "domain": "thyroid"
+    },
+    {
+      "feature": "GLU120",
+      "strength_median": 0.2603540826586477,
+      "strength_p025": 0.16033446718021824,
+      "strength_p975": 0.3620125393727919,
+      "bridge_strength_median": 0.13778186167597295,
+      "bridge_p025": 0.08048307220010942,
+      "bridge_p975": 0.19962361040721002,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "WBC",
+      "strength_median": 1.4514154710296738,
+      "strength_p025": 1.372700687803683,
+      "strength_p975": 1.524120698188992,
+      "bridge_strength_median": 0.13492768957400147,
+      "bridge_p025": 0.07418298773011761,
+      "bridge_p975": 0.20022060034920186,
+      "domain": "inflammatory"
+    },
+    {
+      "feature": "NEUT_ABS",
+      "strength_median": 0.8174674843844902,
+      "strength_p025": 0.7471808095844295,
+      "strength_p975": 0.915574943046706,
+      "bridge_strength_median": 0.12163199639100507,
+      "bridge_p025": 0.06364434005709783,
+      "bridge_p975": 0.2026740492788826,
+      "domain": "inflammatory"
+    }
+  ]
+}
