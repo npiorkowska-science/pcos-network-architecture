@@ -1,0 +1,7 @@
+{
+  "n_features": 40,
+  "selected_alpha_ebic": 0.05,
+  "n_edges": 213,
+  "network_density": 0.27307692307692305,
+  "note": "Sensitivity analysis only: includes mathematically derived ratios/indices excluded from primary network."
+}
