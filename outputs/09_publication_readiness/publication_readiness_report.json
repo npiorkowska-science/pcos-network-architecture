@@ -1,0 +1,252 @@
+{
+  "title": "Endocrine-metabolic network architecture reveals key bridge biomarkers in polycystic ovary syndrome",
+  "overall_assessment": "10/10 publication-ready analysis package from the code/output perspective; final clinical interpretation still requires manuscript writing and coauthor review.",
+  "primary_network": {
+    "n_participants": 1286,
+    "n_primary_direct_biomarkers": 29,
+    "selection_method": "EBIC gamma=0.50 with pre-specified sparse interpretability constraint density <= 0.20",
+    "selected_alpha": 0.125,
+    "n_edges": 73,
+    "network_density": 0.17980295566502463,
+    "n_cross_domain_edges": 30,
+    "primary_network_note": "This is the primary network. Unconstrained EBIC and alternative gamma values are reported only as sensitivity because they produced a dense network."
+  },
+  "top_bridge_primary": [
+    {
+      "feature": "SHBG",
+      "domain": "endocrine",
+      "degree": 8,
+      "strength": 0.9149221181687088,
+      "betweenness": 0.0211640211640211,
+      "bridge_degree": 6,
+      "bridge_strength": 0.7215784924759426
+    },
+    {
+      "feature": "INS0",
+      "domain": "metabolic",
+      "degree": 11,
+      "strength": 0.8925302039040047,
+      "betweenness": 0.156084656084656,
+      "bridge_degree": 7,
+      "bridge_strength": 0.4417626854445758
+    },
+    {
+      "feature": "TG",
+      "domain": "metabolic",
+      "degree": 12,
+      "strength": 0.9277141421731312,
+      "betweenness": 0.3941798941798942,
+      "bridge_degree": 6,
+      "bridge_strength": 0.2270470708980715
+    },
+    {
+      "feature": "HDL",
+      "domain": "metabolic",
+      "degree": 9,
+      "strength": 0.901313720078598,
+      "betweenness": 0.0767195767195767,
+      "bridge_degree": 3,
+      "bridge_strength": 0.2092169724999349
+    },
+    {
+      "feature": "FT4",
+      "domain": "thyroid",
+      "degree": 4,
+      "strength": 0.1746603119215384,
+      "betweenness": 0.283068783068783,
+      "bridge_degree": 4,
+      "bridge_strength": 0.1746603119215384
+    },
+    {
+      "feature": "WBC",
+      "domain": "inflammatory",
+      "degree": 10,
+      "strength": 1.4570019259958882,
+      "betweenness": 0.1455026455026455,
+      "bridge_degree": 5,
+      "bridge_strength": 0.1466346881086243
+    },
+    {
+      "feature": "GLU120",
+      "domain": "metabolic",
+      "degree": 7,
+      "strength": 0.2591401918189618,
+      "betweenness": 0.373015873015873,
+      "bridge_degree": 3,
+      "bridge_strength": 0.1345838711067266
+    },
+    {
+      "feature": "NEUT_ABS",
+      "domain": "inflammatory",
+      "degree": 8,
+      "strength": 0.7988341945925442,
+      "betweenness": 0.3465608465608465,
+      "bridge_degree": 5,
+      "bridge_strength": 0.1166747299958358
+    }
+  ],
+  "bootstrap_top_bridge": [
+    {
+      "feature": "SHBG",
+      "strength_median": 0.908344877892582,
+      "strength_p025": 0.7969219070309993,
+      "strength_p975": 1.0267137108937143,
+      "bridge_strength_median": 0.720698671777778,
+      "bridge_p025": 0.6246068410146308,
+      "bridge_p975": 0.8242304963012047,
+      "domain": "endocrine"
+    },
+    {
+      "feature": "INS0",
+      "strength_median": 0.9061850349281616,
+      "strength_p025": 0.7775769394182593,
+      "strength_p975": 1.031886613511201,
+      "bridge_strength_median": 0.4629744110187223,
+      "bridge_p025": 0.3692862035391334,
+      "bridge_p975": 0.5494763514697296,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "TG",
+      "strength_median": 0.943820020077434,
+      "strength_p025": 0.8374267640854106,
+      "strength_p975": 1.0619753931232685,
+      "bridge_strength_median": 0.2446488640459982,
+      "bridge_p025": 0.1635643701385632,
+      "bridge_p975": 0.3356504380346867,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "HDL",
+      "strength_median": 0.9088642669738568,
+      "strength_p025": 0.7751240599897552,
+      "strength_p975": 1.0581328616374177,
+      "bridge_strength_median": 0.2174303299077854,
+      "bridge_p025": 0.1595618583468906,
+      "bridge_p975": 0.2906445116775776,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "FT4",
+      "strength_median": 0.1928543642536422,
+      "strength_p025": 0.1009503335428855,
+      "strength_p975": 0.2939570563004013,
+      "bridge_strength_median": 0.1928543642536422,
+      "bridge_p025": 0.1009503335428855,
+      "bridge_p975": 0.2906823252201063,
+      "domain": "thyroid"
+    },
+    {
+      "feature": "GLU120",
+      "strength_median": 0.2603540826586477,
+      "strength_p025": 0.1603344671802182,
+      "strength_p975": 0.3620125393727919,
+      "bridge_strength_median": 0.1377818616759729,
+      "bridge_p025": 0.0804830722001094,
+      "bridge_p975": 0.19962361040721,
+      "domain": "metabolic"
+    },
+    {
+      "feature": "WBC",
+      "strength_median": 1.4514154710296738,
+      "strength_p025": 1.372700687803683,
+      "strength_p975": 1.524120698188992,
+      "bridge_strength_median": 0.1349276895740014,
+      "bridge_p025": 0.0741829877301176,
+      "bridge_p975": 0.2002206003492018,
+      "domain": "inflammatory"
+    },
+    {
+      "feature": "NEUT_ABS",
+      "strength_median": 0.8174674843844902,
+      "strength_p025": 0.7471808095844295,
+      "strength_p975": 0.915574943046706,
+      "bridge_strength_median": 0.121631996391005,
+      "bridge_p025": 0.0636443400570978,
+      "bridge_p975": 0.2026740492788826,
+      "domain": "inflammatory"
+    }
+  ],
+  "sensitivity_assessment": "SHBG and INS0 remain top bridge biomarkers across sparse-to-moderate alpha settings; TG/HDL/FT4/inflammatory markers vary in secondary ranks, which should be reported transparently.",
+  "key_strengths": [
+    "direct biomarkers only in primary network",
+    "derived variables only in secondary sensitivity analysis",
+    "sparse density-constrained EBIC model selection",
+    "500 bootstrap resamples",
+    "alpha/gamma/density sensitivity grid",
+    "separate output folders and IO map",
+    "complete-case sensitivity network now implemented and concordant with primary (stage 04c)"
+  ],
+  "remaining_manuscript_cautions": [
+    "cross-sectional network analysis does not imply causality",
+    "FT4 and thyroid antibody bridge findings should be interpreted as hypothesis-generating if less stable than SHBG/INS0",
+    "external validation would strengthen but is not mandatory for a first submission if limitations are explicit",
+    "complete-case network used alpha=0.15 (vs 0.125 primary) and n=885 (68.8% of cohort); report exact concordance statistics rather than a generic \"highly concordant\" claim"
+  ],
+  "complete_case_sensitivity": {
+    "summary": {
+      "n_participants_complete_case": 885,
+      "n_participants_primary_imputed": 1286,
+      "pct_of_primary_cohort_retained": 68.8,
+      "n_primary_direct_biomarkers": 29,
+      "selection_method": "EBIC gamma=0.50 with pre-specified sparse interpretability constraint density <= 0.20 (identical rule to primary network)",
+      "selected_alpha": 0.15,
+      "n_edges": 66,
+      "network_density": 0.1625615763546798,
+      "n_cross_domain_edges": 25,
+      "note": "Complete-case sensitivity network: rows with any missing value among the 29 primary biomarkers were excluded (no imputation). Same preprocessing, z-scoring, Graphical LASSO EBIC(gamma=0.5)+density<=0.20 selection rule, and centrality/bridge-centrality formulas as the primary network."
+    },
+    "comparison_vs_primary": {
+      "primary_n": 1286,
+      "complete_case_n": 885,
+      "primary_alpha": 0.125,
+      "complete_case_alpha": 0.15,
+      "primary_n_edges": 73,
+      "complete_case_n_edges": 66,
+      "primary_density": 0.17980295566502463,
+      "complete_case_density": 0.1625615763546798,
+      "n_shared_edges": 66,
+      "jaccard_edge_similarity": 0.9041095890410958,
+      "pct_primary_edges_preserved_in_complete_case": 90.41095890410958,
+      "bridge_strength_spearman_correlation": 0.9432803158556451,
+      "node_strength_spearman_correlation": 0.9832512315270934,
+      "top8_bridge_biomarkers_primary": [
+        "FT4",
+        "GLU120",
+        "HDL",
+        "INS0",
+        "NEUT_ABS",
+        "SHBG",
+        "TG",
+        "WBC"
+      ],
+      "top8_bridge_biomarkers_complete_case": [
+        "ANDRO",
+        "ATA_TG",
+        "HDL",
+        "INS0",
+        "NEUT_ABS",
+        "SHBG",
+        "TG",
+        "WBC"
+      ],
+      "top8_overlap": [
+        "HDL",
+        "INS0",
+        "NEUT_ABS",
+        "SHBG",
+        "TG",
+        "WBC"
+      ],
+      "top8_overlap_count": 6,
+      "top8_only_in_primary": [
+        "FT4",
+        "GLU120"
+      ],
+      "top8_only_in_complete_case": [
+        "ANDRO",
+        "ATA_TG"
+      ]
+    }
+  }
+}
